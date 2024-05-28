@@ -13,18 +13,33 @@ function About(){
                 <div className="box Image">
                     <img src="https://voxpopmarketing.com/wp-content/uploads/2019/06/AdobeStock_230366692.jpeg"alt="img"></img>
                 </div>
-                <div className="box yellow"></div>
+                <div className="box yellow">
+                <FontAwesomeIcon icon={faPaperPlane} />
+                    <h1>Proin lobortis eu </h1>
+                    <p>Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
+                </div>
             </div>
             <div className='Bottom'>
                 <div className="box yellow">
-                    <FontAwesomeIcon icon={faDesktop} />                
+                    <FontAwesomeIcon icon={faDesktop} />     
+                    <h1>Proin lobortis eu </h1>
+                    <p>Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>           
                 </div>
                 <div className="box light">
                     <FontAwesomeIcon icon={faPaperPlane} />
+                    <h1>Proin lobortis eu </h1>
+                    <p>Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
                 </div>
                 <div className="box orange">
+                <FontAwesomeIcon icon={faPaperPlane} />
+                    <h1>Proin lobortis eu </h1>
+                    <p>Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
                 </div>
-                <div className="box dark"></div>
+                <div className="box dark">
+                <FontAwesomeIcon icon={faPaperPlane} />
+                    <h1>Proin lobortis eu </h1>
+                    <p>Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
+                </div>
             </div>
         </div>
     );

@@ -1,22 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import useScroll from './useScroll';
+
 
 function Nav() {
-    useEffect(() => {
-        const handleScroll = () => {
-            const nav = document.querySelector('.container');
-            nav.classList.toggle('nav-scrolled', window.scrollY > 0);
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        // Cleanup function to remove the event listener when the component unmounts
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
+    const scrolled = useScroll();
     return (
-        <div className='container'>
+        <div className={`container ${scrolled ? 'container-color' : ''}`}>
             <div className='Name'>My Portfolio</div>
             <div className='menu'>
                 <ul>

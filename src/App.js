@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Experience from './components/Experience';
 import Testimonial from './components/Testimonial';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Experience />
       <Testimonial />
+      <Contact />
     </div>
   );
 }

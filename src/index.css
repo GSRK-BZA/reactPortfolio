@@ -23,6 +23,7 @@ code {
   /* margin: 10px; */
   background-color: transparent;
   transition: background-color 0.5s ease;
+  z-index: 10;
 }
 
 .container h1{
@@ -42,7 +43,7 @@ code {
   font-size: 2.5rem;
   color: black;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  background: rgba(245, 247, 250, 0.3);
+  background: rgba(245, 247, 250, 0.1);
   padding: 10px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -217,4 +218,89 @@ li{
 .testimonial-content p {
   font-size: 1rem;
   margin-top: 1rem;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  color: #fff; 
+  background-color: #E9724C;
+}
+
+.form-container {
+  flex: 6;
+  padding: 20px;
+}
+
+.form-container h2 {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.form-container p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input,
+.form-container textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+}
+
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6); /* Translucent placeholder text */
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start; /* Align button to the left */
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.image-container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  
+}
+
+.text-container {
+  flex: 2;
+  padding: 20px;
+}
+
+.text-container h1 {
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  margin-top: 0;
 }

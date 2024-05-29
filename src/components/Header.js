@@ -5,8 +5,8 @@ function Header(){
                 <img src="https://thumbs.dreamstime.com/b/smiling-guy-using-laptop-computer-17336658.jpg" alt="profile" />
             </div>
             <div className='Text'>
-                <h1>Hi, I am <span>John Doe</span></h1>
-                <p>Web Designer & Developer</p>
+                <h1>Hi, I am <span>Siva Rama Krishna</span></h1>
+                <p>Web Designer & Developer & Data Analyst</p>
             </div>
         </div>
     );

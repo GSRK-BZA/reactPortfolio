@@ -5,8 +5,9 @@ const Testimonial = () => {
   return (
     <div className="testimonial-container">
       <div className="testimonial-content">
-        <h1>Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.</h1>
-        <p>Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
+        <h1>Testimonial</h1>
+        <p>As a normal programmer, I highly recommend Siva Ram for his exceptional skills and dedication to his work.</p>
+        <p>-copilot</p>
       </div>
     </div>
   );

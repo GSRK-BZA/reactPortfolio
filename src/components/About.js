@@ -25,12 +25,12 @@ function About(){
                     <h1>Experience</h1>
                     <p>I have worked on various web development projects, including building responsive websites and web applications.</p>
                 </div>
-                <div className="box light">
+                <div className="box orange">
                     <FontAwesomeIcon icon={faPaperPlane} />
                     <h1>Education</h1>
                     <p>I have a degree in Computer Science and have completed several online courses to enhance my skills in web development.</p>
                 </div>
-                <div className="box orange">
+                <div className="box light">
                     <FontAwesomeIcon icon={faPaperPlane} />
                     <h1>Projects</h1>
                     <p>I have contributed to open-source projects and have developed personal projects to showcase my skills.</p>

@@ -1,6 +1,6 @@
 import React from 'react';
 import useScroll from './useScroll';
-
+import { Link } from 'react-scroll';
 
 function Nav() {
     const scrolled = useScroll();
@@ -9,11 +9,11 @@ function Nav() {
             <div className='Name'>My Portfolio</div>
             <div className='menu'>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Experience</a></li>
-                    <li><a href="/contact">Testimonial</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
+                    <li><Link to="about" smooth={true} duration={500}>About</Link></li>
+                    <li><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
+                    <li><Link to="testimonial" smooth={true} duration={500}>Testimonial</Link></li>
+                    <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
                 </ul>
             </div>
         </div>

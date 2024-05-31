@@ -7,7 +7,7 @@ function Experience() {
         </div>
         <div className="E-Text box orange">
           <h1>Education</h1>
-          <p>Bsc-undergrad</p>
+          <a href = "www.scalerschooloftechnology.com">Bsc-undergrad</a>
         </div>
       </div>
       <div className="E-Bottom same">

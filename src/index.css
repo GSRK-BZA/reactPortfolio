@@ -39,17 +39,17 @@ code {
   margin-right: 20px;
 }
 .Name {
-  font-family: 'Arial Black', Gadget, sans-serif;
-  font-size: 2.5rem;
-  color: black;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  background: rgba(245, 247, 250, 0.1);
+  font-size: 1.5rem; /* Adjust as necessary */
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  /* background: rgba(245, 247, 250, 0.1);
   padding: 10px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: inline-block;
   margin: 20px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s; */
 }
 
 .Name:hover {

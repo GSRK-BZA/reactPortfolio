@@ -1,4 +1,3 @@
-// useScroll.js
 import { useState, useEffect } from 'react';
 
 function useScroll() {

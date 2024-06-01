@@ -43,13 +43,6 @@ code {
   font-weight: bold;
   color: #333;
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
-  /* background: rgba(245, 247, 250, 0.1);
-  padding: 10px 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: inline-block;
-  margin: 20px;
-  transition: transform 0.2s, box-shadow 0.2s; */
 }
 
 .Name:hover {
@@ -67,6 +60,7 @@ a:hover{
 }
 li{
   margin: 0 10px;
+  cursor: pointer;
 }
 .H-container{
   display: flex;

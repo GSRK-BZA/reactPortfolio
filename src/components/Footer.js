@@ -13,6 +13,7 @@ const Footer = () => {
         <a href="https://www.dribbble.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-dribbble"></i></a>
         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
       </div>
+      
     </footer>
   );
 };

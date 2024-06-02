@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>Copyright © 2099 I am Siva Rama Krishna | Design: <a href="apple.in">apple is superior</a></p>
+      <p>Copyright © 2099 I am Siva Rama Krishna | Design: <a href="https://www.apple.in" target='_blank '>apple is superior</a></p>
       <div className="social-icons">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
         <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
